@@ -1,0 +1,113 @@
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Condensed';
+}
+
+.carousel-inner {
+	margin-bottom: 20px;
+}
+
+.carousel-inner .item {
+	height: 450px; 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-caption {
+	bottom: 0;
+	margin-bottom: 0; 
+	padding-bottom: 0;
+}
+
+.soul-heading {
+	width: auto;
+	padding: 2px;
+	background: rgba(230, 40, 40, .6); 
+	text-transform: uppercase; 
+	margin-bottom: 0; 
+	margin-top: 0; 
+	color: white;	
+}
+a .soul-heading {
+	color: white;
+}
+
+.half {
+	width: 50%;
+}
+
+.space {
+	padding-bottom: 50px;
+}
+
+img.full-img {
+	width: 100%;
+}
+
+.top-line {
+	height: 4px;
+	width: 100%;
+	background-color: rgba(230, 40, 40, .6); 
+}
+
+.navbar-brand {
+	margin: 10px;
+	background-image: url("/img/soul_black.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center left;
+	width: 200px;
+}
+
+body {
+		padding-top: 50px;
+}
+
+a:hover {
+	color: rgba(230, 40, 40, .6); 
+}
+
+.carousel-control, .carousel-control:visited {
+	color: rgba(230, 40, 40, .6);
+}
+.carousel-control:hover {
+	color: white;
+}
+
+.navbar-default:not(.nav-largestate) {
+	transition:  height 1s linear .5s, padding-top .2s linear;
+	-webkit-transition: height 1s linear .5s, padding-top .2s linear; /* Safari */
+	transition-delay: 0s;
+}
+
+@media (min-width: 768px)  
+{
+	.nav-largestate {
+		padding: 30px;
+		padding-top: 28px;
+		height: 100px;
+		border-bottom: 4px solid rgba(230, 40, 40, .6);
+
+	}
+	.navbar-brand {
+		
+		width: 170px;
+	}
+	.nav-largestate .navbar-brand {
+		height: 50px;
+		margin: 0;
+	}
+	body {
+		padding-top: 100px;
+	}
+}
+
+
+.footer {
+	height: 200px;
+	margin-top: 60px;
+	padding-top: 20px;
+	border-top: 4px solid rgba(230, 40, 40, .6) !important;
+}
+

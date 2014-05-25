@@ -1,0 +1,70 @@
+Home
+	- Social Media
+	- Latest Photos/Videos
+	- Logo
+	- JazzSoc
+
+Music
+	- Youtube Links
+	- Recordings
+Gigs
+	- Calendar with upcoming gigs
+	- Gig posters
+	- Facebook links
+Photos
+	- Watermarked
+	- Albums
+
+About
+	- Band Members
+	- Band Description
+Contact
+	- Tash 
+	- JazzSoc
+
+<!-- Dark #34495e -->
+<!-- Highligts #2980b9 -->
+<!-- Red #c0392b -->
+<!-- Clouds #ecf0f1 -->
+<!-- Concrete #95a5a6 -->
+
+
+
+//Latest News
+
+
+<div class="tent tent-small">
+						<h2>Latest News</h2>
+						
+					
+<div id='fb-root'></div>
+    <script src='http://connect.facebook.net/en_US/all.js'></script>
+
+						<?php 
+						$query = "SELECT id, title, body, DATE_FORMAT(time, '%d.%m.%y') as time FROM blog ORDER BY time DESC LIMIT 3";
+						$result = mysql_query($query);
+
+						while ($row = mysql_fetch_array($result)){
+
+
+						?>
+					<hr />
+								<h3><?php echo $row['time']; ?></h3>
+								<h2><a href="post?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></h2>
+								<div class="content">
+									<?php echo $row['body']; ?>
+								</div>
+								<div class="share">
+									<a onclick="postToFeed(<?php echo '\''.$row['id'].'\', \''.$row['title'].'\', \''.$row['body'].'\''; ?>); return false;">
+										<button class="btn btn-inverse">Share on Facebook</button>
+									</a>
+									<a href="https://twitter.com/share?url=http://nomadpercussion.com/post?id=<?php echo $row['id']; ?>" target="_blank">
+										<button class="btn btn-inverse">Share on Twitter</button>
+									</a>
+								</div>
+							
+
+						<?php
+						}
+						?>
+</div>

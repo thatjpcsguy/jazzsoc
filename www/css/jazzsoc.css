@@ -1,0 +1,31 @@
+.navbar-brand {
+	background-image: url("/img/jazzsoc_white.jpg");
+}
+
+.soul-heading {
+	background: rgba(40, 110, 230, .6);
+}
+
+.top-line {
+	background-color: rgba(40, 110, 230, .6); 
+}
+
+a:hover {
+	color: rgba(40, 110, 230, .6); 
+}
+
+.carousel-control, .carousel-control:visited {
+	color: rgba(40, 110, 230, .6); 
+}
+
+@media (min-width: 768px)  
+{
+	.nav-largestate {
+		border-bottom: 4px solid rgba(40, 110, 230, .6); 
+	}
+}
+
+
+.footer {
+	border-top: 4px solid rgba(40, 110, 230, .6) !important; 
+}
