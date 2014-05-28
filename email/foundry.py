@@ -34,6 +34,9 @@ html = """\
             <p>As usual, the gig will be 100% free, and access, Jazzsoc and BTS members will all get a free drink on entry. So come on down and get your funk on (and your drunk on) before you die of exam stress.</p>
             <p>More details on facebook: <a href="https://www.facebook.com/events/1432568100331775/">https://www.facebook.com/events/1432568100331775/</a></p>
 
+	    <h4>Expressions of interest for Swing Ball Combo</h4>
+            <p>JazzSoc is looking for a small combo to play at the swing ball, opening for the big band! If you are in a combo and are interested or want to know more, please contact us! While we cannot pay you, we can give you free entry to the rest of the ball!</p>
+
 	
             <br /><br /><br />
             <p>That's all for now, and be sure to <i>swing</i> by eastern avenue to get your swing ball tickets!</p>
@@ -52,6 +55,9 @@ html = """\
             <a href="http://instagram.com/jazzsoc">
                 <img style="width: 50px; height: 50px; background-color: #3F729B;" src="http://jpcs.me/img/jpcs-social/instagram-512.png" />
             </a>&nbsp;
+            <a href="http://soundcloud.com/jazzsoc-usyd">
+                <img style="width: 50px; height: 50px; background-color: #F80;" src="http://jpcs.me/img/jpcs-social/soundcloud-512.png" />
+            </a>&nbsp;
             <a href="mailto:contact@jazzsoc.org">
                 <img style="width: 50px; height: 50px; background-color: rgb(0, 0, 0);" src="http://jpcs.me/img/jpcs-social/email-512.png" />
             </a>
@@ -69,7 +75,7 @@ html = """\
 """
 
 msg = MIMEMultipart('alternative')
-msg['Subject'] = "Keen To Jam With Us?"
+msg['Subject'] = "READ: JazzSoc News!"
 msg['From'] = "University of Sydney Jazz Society <contact@jazzsoc.org>"
 msg['To'] = first_name+' '+last_name+' <'+user_email+'>'
 

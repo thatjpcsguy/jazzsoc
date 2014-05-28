@@ -18,7 +18,7 @@ mysql_select_db(SQL_DB, $con);
 
 
 $q = mysql_query("SELECT email, first_name, last_name FROM members WHERE email <> ''");
-// $q = mysql_query("SELECT email, first_name, last_name FROM members WHERE email = 'thatguy@jpcs.me'");
+//$q = mysql_query("SELECT email, first_name, last_name FROM members WHERE email = 'thatguy@jpcs.me'");
 
 while ($row = mysql_fetch_assoc($q))
 {
