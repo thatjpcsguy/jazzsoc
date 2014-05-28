@@ -110,6 +110,11 @@
 		        		<a href="/events"><h3 class="soul-heading half">2014 Jazzsoc Swing Ball</h3></a>
 		    		</div>
 		    	</div>
+		    	<div class="item" style="background-image: url('/img/gigs/band_night.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+		    		<div class="carousel-caption">
+		        		<a href="/events"><h3 class="soul-heading half">Band Night!</h3></a>
+		    		</div>
+		    	</div>
 		    	<div class="item" style="height: 450px; background: url('/img/gigs/caberet.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 		    		<div class="carousel-caption">
 		        		<a href="/photos"><h3 class="soul-heading half">MUSE and SOUL Presents Caberet 2013</h3></a>
