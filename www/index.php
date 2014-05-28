@@ -104,14 +104,13 @@
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
-		    	<?php if (is_jazzsoc()){ ?>
-			    	<div class="item active" style="background-image: url('/img/gigs/foundry_banner.jpg');">
-			    		<div class="carousel-caption">
-			        		<a href="/events"><h3 class="soul-heading half">Jazzsoc Attends Foundry 616</h3></a>
-			    		</div>
-			    	</div>
-		    	<? } ?>
-		    	<div class="item <?php if (!is_jazzsoc()) { echo 'active'; } ?>" style="height: 450px; background: url('/img/gigs/caberet.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+		    	
+		    	<div class="item active" style="background-image: url('/img/gigs/swing_ball.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+		    		<div class="carousel-caption">
+		        		<a href="/events"><h3 class="soul-heading half">2014 Jazzsoc Swing Ball</h3></a>
+		    		</div>
+		    	</div>
+		    	<div class="item" style="height: 450px; background: url('/img/gigs/caberet.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 		    		<div class="carousel-caption">
 		        		<a href="/photos"><h3 class="soul-heading half">MUSE and SOUL Presents Caberet 2013</h3></a>
 		    		</div>
