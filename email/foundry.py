@@ -23,7 +23,7 @@ html = """\
             <p>""" + first_name + """, thanks for a great semester 1!</p>
 
             <h4>2014 Swing Ball</h4>
-            <p>Thankyou to everyone who came to our first ever swing ball! For those who came I think you will agree it was a totally awesome night and I for sure am looking forward to next years ball. <a href="https://www.facebook.com/media/set/?set=a.785602578141368.1073741844.693427937358833&type=1">Here is a link</a> to the all the photos on facebook. Thanks to <a href="https://www.facebook.com/houseofcameo">House of Cameo</a> for the great shots!</p>
+            <p>Thankyou to everyone who came to our first ever swing ball! For those who came I think you will agree it was a totally awesome night and I for sure am looking forward to next years ball. <a href="https://www.facebook.com/media/set/?set=a.785602578141368.1073741844.693427937358833&type=1">Here is a link</a> to the all the photos on facebook. Thanks to <a href="https://www.facebook.com/houseofcameo">House of Cameo</a> for the great shots, and everyone involved with putting on such a great night!</p>
 
             <h4>Good Luck In Exams!</h4>
             <p>On behalf of the JazzSoc team, I would like to wish you luck with your exams and final assessments. We'll see you back next semester with a ton of cool stuff!</p>
