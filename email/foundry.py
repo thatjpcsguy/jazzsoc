@@ -22,25 +22,15 @@ html = """\
         <div style="margin: 0 auto; background-color: white; width:550px; padding:25px;">
             <p>""" + first_name + """, we have one hell of a week planned!</p>
 
-            <h4>The 2014 JazzSoc Swing Ball! 31st May</h4>
-            <p>Dust off your dancing shoes and get ready to boogie as JazzSoc presents its very first Swing Ball! Live bands including JazzSoc's very own SOUL Big Band will take you back to the golden era of swing!</p>
-            <p>So head down to the Roxbury Hotel in Glebe on May 31st for a classy night of swingin' tunes that'll get you movin' and groovin' on the dance floor! </p>
-            <p>There will also be a brief dance lesson on the night starting at 8pm, to teach you some sweet moves!</p>
-            <p>Tickets are available online here: <a href="https://swingball.eventbrite.com.au">https://swingball.eventbrite.com.au</a> and on Eastern Avenue this week. Tickets will be sold at the door but there is limited capacity so gt in quick!</p>
-            <p>More details on facebook: <a href="https://www.facebook.com/events/1393199404297965/">https://www.facebook.com/events/1393199404297965/</a></p>
+            <h4>2014 Swing Ball</h4>
+            <p>Thankyou to everyone who came to our first ever swing ball! For those who came I think you will agree it was a totally awesome night and I for sure am looking forward to next years ball. <a href="https://www.facebook.com/media/set/?set=a.785602578141368.1073741844.693427937358833&type=1">Here is a link</a> to the all the photos on facebook. Thanks to <a href="https://www.facebook.com/houseofcameo">House of Cameo</a> for the great shots!</p>
 
-            <h4>JazzSoc / Beat The System Band Night! 29th May</h4>
-            <p>Essays getting you down? The thought of exams making you want to lock yourself in a room and listen to Duke Ellington? NEVER FEAR. Finally, a collaboration with the two coolest societies on campus! We're super excited to announce that Baby Lips and the Silhouettes and Funk Engine are playing together at Hermanns. </p>
-            <p>As usual, the gig will be 100% free, and access, Jazzsoc and BTS members will all get a free drink on entry. So come on down and get your funk on (and your drunk on) before you die of exam stress.</p>
-            <p>More details on facebook: <a href="https://www.facebook.com/events/1432568100331775/">https://www.facebook.com/events/1432568100331775/</a></p>
-
-	    <h4>Expressions of interest for Swing Ball Combo</h4>
-            <p>JazzSoc is looking for a small combo to play at the swing ball, opening for the big band! If you are in a combo and are interested or want to know more, please contact us! While we cannot pay you, we can give you free entry to the rest of the ball!</p>
-
+            <h4>Good Luck In Exams!</h4>
+            <p>On behalf of the JazzSoc team, I would like to wish you luck with your exams and final assessments. We'll see you back next semester with a ton of cool stuff!</p>
 	
             <br /><br /><br />
-            <p>That's all for now, and be sure to <i>swing</i> by eastern avenue to get your swing ball tickets!</p>
-            <p>James and the JazzSoc Team!</p>
+            <p>Cheers,</p><br />
+            <p>James Peter Cooper-Stanbury<br />Jazz Society President</p>
         </div>
         <div style="width: 600px; padding-top: 50px; margin: 0 auto; height: 100px; background-color: #2c3e50; text-align: center;">
             <a href="http://facebook.com/jazzsoc">
@@ -75,7 +65,7 @@ html = """\
 """
 
 msg = MIMEMultipart('alternative')
-msg['Subject'] = "READ: JazzSoc News!"
+msg['Subject'] = "Thankyou and good luck!"
 msg['From'] = "University of Sydney Jazz Society <contact@jazzsoc.org>"
 msg['To'] = first_name+' '+last_name+' <'+user_email+'>'
 
