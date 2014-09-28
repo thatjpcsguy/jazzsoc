@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile "/var/www/jazz/email/.htpasswd"
+Require valid-user
