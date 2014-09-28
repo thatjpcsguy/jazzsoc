@@ -9,7 +9,7 @@ define('SQL_DB', 'clubcurator');
 ini_set('display_errors', 1);
 
 
-$template = 'foundry';
+$template = 'agm';
 
 
 $con = mysql_connect(SQL_SERVER, SQL_USERNAME, SQL_PASSWORD);
